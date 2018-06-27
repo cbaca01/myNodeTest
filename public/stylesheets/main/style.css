@@ -1,0 +1,58 @@
+body {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 150;
+  color: #262528;
+  background-color: #e8f4b1;
+}
+.main-container {
+  background-color: white;
+  min-height: 35em;
+  border-style: solid;
+  border-color: #c0c5c9;
+  border-width: thin;
+  padding: 35px;
+}
+.main-container label {
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+footer.page-footer {
+  bottom: 0;
+  color: #262528;
+}
+footer.page-footer .container-fluid {
+  width: auto;
+}
+footer.page-footer .footer-copyright {
+  overflow: hidden;
+  background-color: #9ba6b9;
+  font-size: 0.8rem;
+  color: #262528;
+}
+footer.page-footer a {
+  color: #262528;
+}
+.navbar {
+  background-color: #5a7387;
+  color: #e3e5e8;
+  box-shadow: 0 3px 3px 0 #9e9c99;
+  height: 60px;
+}
+.navbar a {
+  color: #e3e5e8;
+}
+.navbar a:hover {
+  color: #eff7ff;
+}
+li.nav-item.avatar.dropdown {
+  width: 38px;
+  height: 38px;
+}
+.form-control {
+  font-size: 0.9rem;
+}
+select .mdb-select {
+  width: 28em;
+  font-size: 0.9rem;
+}

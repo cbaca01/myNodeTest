@@ -1,0 +1,25 @@
+@normalColor: rgb(227, 229, 232);
+@lightColor: rgb(239, 247, 255);
+@shadowColor: rgb(158, 156, 153);
+@navbarHeight: 60px;
+
+.navbar {
+	background-color: #5a7387;
+	color: @normalColor;
+	box-shadow: 0 3px 3px 0 @shadowColor;
+	height: @navbarHeight;
+}
+
+.navbar a {
+	color: @normalColor;
+//	height: @navbarHeight;
+}
+
+.navbar a:hover {
+	color: @lightColor;
+}
+
+li.nav-item.avatar.dropdown {
+	width: 38px;
+	height: 38px;
+}

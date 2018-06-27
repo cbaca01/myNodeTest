@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap Template - {{title}}</title>
+    {{> css_links }}
+
+</head>
+
+<body class="fixed-sn">
+    
+    <!--Double navigation-->
+    <header>
+        {{> sidebar }}
+        {{> navbar }}
+    </header>
+    <!--/.Double navigation-->
+    
+    <!--Main layout-->
+    <main>
+
+        {{#block "main"}}
+            <p>Lorem ipsum...</p>
+        {{/block}}
+
+    </main>
+    <!--/Main layout-->
+
+    {{> footer }}
+
+    <!-- SCRIPTS -->
+    {{> js_links }}
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            // SideNav Initialization
+            $(".button-collapse").sideNav();
+        
+            new WOW().init();
+
+            // initialize select
+            $('.mdb-select').material_select();
+        });
+    
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+	font-family: @normalFont;
+	font-weight: 150;
+	color: @normalFontColor;
+	background-color: @mainBGColor;
+}
+
+.main-container {
+    background-color: @containerColor;
+	min-height: 35em;
+	border-style: solid;
+    border-color: @mainBorderColor;
+    border-width: thin;
+    padding: 35px;
+}
+
+.main-container label {
+	display: inline-block;
+	font-size: @mainFontSize;
+	margin-bottom: 0.5rem;
+}
+
+footer.page-footer {
+	bottom: 0;
+	color: @normalFontColor;
+	.container-fluid {
+		width: auto;
+	}
+	.footer-copyright {
+		overflow: hidden;
+		background-color: @footerBGColor;
+		font-size: 0.8rem;
+		color: @normalFontColor;
+	}
+	a {
+		color: @normalFontColor;
+	}
+}
